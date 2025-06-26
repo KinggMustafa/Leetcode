@@ -17,8 +17,9 @@ if __name__ == '__main__':
         print(f' single number: {test1}')
 
     list2 = [4,1,2,1,2]
+    #even tho its not in order, the total operand is the cumulitive of all numbers, meaning xor is done to all number and even though its at different times the same bits will cancel out leaving just the single number
     test2 = Solution().singleNumber(list2)
     if test2:
         print(f'single Number: {test2}')
-
-    
+#things to note:
+    #if there was more than just a single number without a duplicate xor would add those numbers together 
