@@ -16,3 +16,5 @@ if __name__ == '__main__':
     test1 = Solution().findNumbers(test)
     if test1:
         print(f"there are {test1} number/s with an even number of digits")
+#this solution is O(n) bc the for loop will run n times with n indexes in the list
+#the while loop will only run at most 6 times, bc the biggest number we will get is 10^5 according to the contrains given in the problem 
